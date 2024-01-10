@@ -1,0 +1,439 @@
+*,
+*::after,
+*::before 
+  {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .html
+  {
+     font-size: 62.5%;
+  }
+  body 
+  {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .main
+  {
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(image.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+  }
+  .nav
+  {
+    box-shadow: 0px 5px 10px 0px #aaa;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    color: #000;
+    opacity: 0.85;
+    height: 50px;
+    z-index: 12;
+  }
+  .menu-items
+  {
+     order: 2;
+     display: flex;
+  }
+  .menu-items li
+  {
+    list-style: none;
+    margin-left: 3rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    padding: 20px;
+  }
+  .menu-items a
+  {
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+  }
+  .menu-items a:hover
+  {
+     color: #117964;
+     transition: color 0.3s ease-in-out;
+  }
+  .icon
+  {
+    width: 200px;
+    float: left;
+    height: 70px;
+  }
+  .logo
+  {
+    color: black;
+    font-size: 40px;
+    font-family:Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    font-weight: bolder;
+    position: fixed;
+
+  }
+  .menu
+  {
+    width: 400px;
+    float: left;
+    height: 70px;
+  }
+  .content
+  {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+  }
+  .content h2
+  {
+   text-align: center;
+   color:deeppink;
+   padding-top: 100px;
+   font-weight: bold;
+   font-size: 50px;
+  }
+  .content p
+  {
+   text-align: center;
+   color:white;
+   padding-top: 30px;
+   font-size: 30px;
+   font-style: italic;
+  }
+  .btn
+  {
+    width: 240px;
+    height: 40px;
+    background:orangered;
+    border: none;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+    margin-left: 520px;
+  }
+  .btn:hover
+  {
+    background:white;
+    color: orangered;
+  }
+  .btn a
+  {
+    text-decoration: none;
+    color:#000;
+    font-weight: bold;
+  }
+  #about
+  {
+    padding: 50px;
+    background-color :#f5f5f7;
+  }
+  .about-wrapper
+  {
+    display: flex;
+    flex-wrap:wrap;
+    color: black;
+  }
+  #about h2
+  {
+    padding: 10px;
+    font-size: 2.2rem;
+    color: gray;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  #p1
+  {
+    font-size: 1.2rem;
+    color: #001000;
+    font-style: italic;
+  }
+  .small
+  {
+    font-size:20px;
+    font-weight: 600;
+  }
+  .about-img
+  {
+    text-align: center;
+    padding: 30px;
+  }
+  #food
+  {
+    padding: 0.8rem;
+  }
+  #food h2
+  {
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: #555;
+  }
+  .container
+  {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+  }
+  .food-container 
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+  .food-container img 
+  {
+    display: block;
+    width: 100%;
+    margin: auto;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .img-container
+  {
+    margin: 0 1rem;
+    position: relative;
+  }
+   #fig1
+  {
+    padding: 2rem;
+    font-size: 23px;
+    font-weight: bold;
+    font-family:monospace;
+  }
+  #food-menu
+  {
+    padding: 2rem;
+  }
+  .food-menu-heading
+  {
+    padding: 2rem;
+    text-align: center;
+    font-size: 3.4rem;
+    font-weight: 400;
+    color: #666;
+  }
+  .food-menu-container 
+  {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0px 30px 0px;
+  }
+  .food-menu-container img
+  {
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .food-menu-item 
+  {
+    display: flex;
+    flex: 1 1 600px;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+  }
+  .food-description
+  {
+    margin: auto 1.5rem;
+  }
+  .food-title 
+  {
+    padding: 1rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #444;
+  }
+  .food-description p 
+  {
+    font-size: 1.4rem;
+    color: #555;
+    font-weight: 500;
+  }
+  .food-description .food-price
+  {
+    color: #117964;
+    font-weight: 700;
+  }
+.food-menu-container img
+ {
+   margin: auto;
+ }
+.food-menu-item
+ {
+   flex-direction: column;
+   text-align: center;
+ }
+ .brinjal
+ {
+  width: 1000px;
+ }
+ .ladies
+ {
+  width: 1000px;
+ }
+ .mandi 
+ {
+  width:1000px;
+  height: 600px;
+ }
+ .prawn
+ {
+  width: 980px;
+ }
+ .burger
+ {
+  width: 1000px;
+ }
+ #testimonial
+ {
+  padding: 5rem 0;
+  background:rgba(243, 243, 243);
+ }
+ .testimonial-title
+ {
+   text-align: center;
+   font-size: 2.8rem;
+   font-weight: 400;
+   color: #555;
+ }
+ .testimonial-container
+ {
+   display: flex;
+   justify-content: space-between;
+   font-size: 1.4rem;
+   padding: 1rem;
+ }
+ .testimonial-box .checked
+ {
+  color: #ff9529;
+ }
+ .testimonial-box .testimonial-text
+ {
+  margin: 1rem 0;
+  color: #444;
+  font-family: 'poppins';
+ }
+ .testimonial-box
+ {
+   text-align: center;
+   padding: 1rem;
+ }
+ .customer-photo img
+ {
+   display: block;
+   width: 150px;
+   height: 150px;
+   object-fit: cover;
+   object-position: center;
+   border-radius: 50%;
+   margin: auto;
+ }
+ .customer-name
+ {
+  font-size: 20px;
+  color:black
+ }
+ #contact {
+  padding: 5rem 0;
+  background: rgb(226, 226, 226);
+}
+.contact-container {
+  display: flex;
+  background: #fff;
+}
+.contact-img {
+  width: 460px;
+}
+.contact-img img {
+  display: block;
+  height: 400px;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+.form-container {
+  padding: 1rem;
+  width: 50%;
+  margin: auto;
+}
+.form-container input {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  padding: 1rem 0;
+  box-shadow: none;
+  outline: none;
+  margin-bottom: 1rem;
+  color: #444;
+  font-weight: 500;
+}
+.form-container textarea {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  color: #444;
+  outline: none;
+  padding: 1rem 0;
+  resize: none;
+}
+.form-container h2 {
+  font-size: 2.7rem;
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 1rem;
+  margin-top: -1.2rem;
+}
+.form-container a {
+  font-size: 1.3rem;
+}
+#footer h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 2.6rem;
+  font-weight: 500;
+  color: #fff;
+  background: rgb(65, 65, 65);
+}
+.btnn
+  {
+    width: 240px;
+    height: 40px;
+    background:crimson;
+    border: none;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+    margin-left: 180px;
+  }
+  .btnn:hover
+  {
+    background:violet;
+    color: orangered;
+  }
+  .btnn a
+  {
+    text-decoration: none;
+    color:#000;
+    font-weight: bold;
+  }
+
